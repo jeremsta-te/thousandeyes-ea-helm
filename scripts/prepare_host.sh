@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Cisco Systems, Inc. and its affiliates
+# All rights reserved.
+
 #!/bin/bash
 
 # Prepare host for ThousandEyes BrowserBot Container
