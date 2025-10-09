@@ -47,3 +47,6 @@ helm install -n thousandeyes thousandeyes thousandeyes-ea-helm/thousandeyes-ea-h
 ```
 kubectl get pods -n thousandeyes
 ```
+## License
+Copyright (c) 2023 Cisco Systems, Inc. and its affiliates
+All rights reserved.
