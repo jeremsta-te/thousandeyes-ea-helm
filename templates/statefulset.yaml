@@ -40,9 +40,6 @@ spec:
             seccompProfile:
               type: Localhost
               localhostProfile: te-seccomp.json
-            appArmorProfile:
-              type: Localhost
-              localhostProfile: docker_sandbox
           args:
             - /sbin/my_init
           env:
