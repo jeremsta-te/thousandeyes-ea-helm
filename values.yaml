@@ -44,7 +44,7 @@ volumeClaimTemplates:
       resources:
         requests:
           storage: 500Mi
-      # storageClassName:
+      storageClassName: standard
   - metadata:
       name: thousandeyes-browserbot
     spec:
@@ -53,7 +53,7 @@ volumeClaimTemplates:
       resources:
         requests:
           storage: 500Mi
-      # storageClassName: 
+      storageClassName: standard
   - metadata:
       name: thousandeyes-log
     spec:
@@ -62,4 +62,4 @@ volumeClaimTemplates:
       resources:
         requests:
           storage: 500Mi
-      # storageClassName: 
+      storageClassName: standard
